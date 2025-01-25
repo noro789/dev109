@@ -39,6 +39,11 @@ float:left;
  margin-bottom:5%;
 }
 
+img {
+ margin-left: 5px;
+ margin-top:10px;
+ }
+
 #footer {
  border:solid 1px;
  padding: 10px;
