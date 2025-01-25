@@ -1,59 +1,25 @@
-body {
-    background-image: url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
-    margin: 0;
-    font-family: 'JustLettersMedium', sans-serif;
+.row{
+position:relative;
+margin-left:10%;
+margin-right:10%;
 }
 
-#title {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 10px;
-    width: 100%;
-    background-color: lightyellow;
-    text-align: center;
-    z-index: 10;
-    font-size: 36px;
-    font-weight: normal;
+.white{
+border: 1px solid black;
+width: 10%;
+height: 60px;
+background-color:white;
+float:left;
 }
 
-#container {
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
+.black{
+border: 1px solid black;
+width: 10%;
+height: 60px;
+background-color:#787878;
+float:left;
 }
 
-.row {
-    position: relative;
-    clear: both;
-}
-
-.white, .black {
-    border: 1px solid black;
-    width: 10%;
-    height: 60px;
-    float: left;
-}
-
-.white {
-    background-color: white;
-}
-
-.black {
-    background-color: #787878;
-}
-
-img {
-    margin-left: 5px;
-    margin-top: 10px;
-    width: 80%;
-    height: 80%;
-}
-
-#footer {
-    border: solid 1px;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
+#clear{
+clear:both; 
 }
