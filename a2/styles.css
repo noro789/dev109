@@ -1,25 +1,26 @@
-.row{
-position:relative;
-margin-left:10%;
-margin-right:10%;
+.row {
+    width: 100%; /* Ensure rows take the full width */
+    margin: 0; /* No extra margins on rows */
+    padding: 0;
+    display: flex; /* Use flexbox for better alignment */
+    justify-content: center;
 }
 
-.white{
-border: 1px solid black;
-width: 10%;
-height: 60px;
-background-color:white;
-float:left;
+.white, .black {
+    border: 1px solid black;
+    width: 12.5%; /* 8 cells = 100%, each is 12.5% */
+    height: 60px;
+    box-sizing: border-box; /* Include border in width/height */
 }
 
-.black{
-border: 1px solid black;
-width: 10%;
-height: 60px;
-background-color:#787878;
-float:left;
+.white {
+    background-color: white;
 }
 
-#clear{
-clear:both; 
+.black {
+    background-color: #787878;
+}
+
+.clear {
+    clear: both; /* Ensures rows don’t overlap */
 }
