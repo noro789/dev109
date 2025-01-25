@@ -33,16 +33,18 @@ float:left;
 }
 
 #container {
- margin-top:20%;
- margin-left:10%;
- margin-right:10%;
- margin-bottom:5%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* Creates 8 columns */
+    grid-template-rows: repeat(8, 1fr); /* Creates 8 rows */
+    width: 80vw; /* 80% of the viewport width */
+    height: 80vw; /* Makes the height equal to the width to maintain square shape */
+    max-width: 640px; /* Limit the size to 640px max */
+    max-height: 640px; /* Limit the height to 640px max */
+    margin: 20px auto; /* Adds a small margin to center the board */
+    border: 2px solid black; /* Optional, for a border around the chessboard */
 }
 
-img {
- margin-left: 5px;
- margin-top:10px;
- }
+
 
 #footer {
  border:solid 1px;
