@@ -1,39 +1,25 @@
-body {
-    display: flex;
-    justify-content: center; /* Centers the chessboard horizontally */
-    align-items: center; /* Centers the chessboard vertically */
-    min-height: 100vh; /* Ensures body takes up full viewport height */
-    margin: 0; /* Removes default margin */
+.row{
+position:relative;
+margin-left:10%;
+margin-right:10%;
 }
 
-#container {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr); /* Creates 8 columns */
-    grid-template-rows: repeat(8, 1fr); /* Creates 8 rows */
-    width: 80vw; /* 80% of the viewport width */
-    height: 80vw; /* Makes the height equal to the width to maintain square shape */
-    max-width: 640px; /* Limit the size to 640px max */
-    max-height: 640px; /* Limit the height to 640px max */
-    margin: 20px auto; /* Adds a small margin to center the board */
-    border: 2px solid black; /* Optional, for a border around the chessboard */
+.white{
+border: 1px solid black;
+width: 10%;
+height: 60px;
+background-color:white;
+float:left;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
+.black{
+border: 1px solid black;
+width: 10%;
+height: 60px;
+background-color:#787878;
+float:left;
 }
 
-.white, .black {
-    width: 100%;
-    height: 100%;
-}
-
-.white {
-    background-color: white;
-    border: 1px solid black;
-}
-
-.black {
-    background-color: #787878;
-    border: 1px solid black;
+#clear{
+clear:both; 
 }
