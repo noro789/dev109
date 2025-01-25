@@ -1,3 +1,9 @@
+#container {
+    margin-left: 10%;  /* Add margin to the left side of the board */
+    margin-right: 10%; /* Add margin to the right side of the board */
+}
+
+
 .row{
 position:relative;
 margin-left:10%;
